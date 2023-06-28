@@ -243,16 +243,12 @@ body {
     }
 
     .sidebar-mobile{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        align-items: center;
-    }
-
-    .fa-2x i{
-        display: inline-block;
-        padding: 10px;
-        margin-right: 10px;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 100vw;
+        background-color: #FFF;
+        padding: 15px;
     }
 }
 
